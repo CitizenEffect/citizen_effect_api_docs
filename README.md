@@ -1,0 +1,2 @@
+- run bundle install
+- nanoc autocompile
