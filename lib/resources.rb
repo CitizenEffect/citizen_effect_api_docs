@@ -11,6 +11,7 @@ module Company
         204 => '204 No Content',
         301 => '301 Moved Permanently',
         304 => '304 Not Modified',
+        400 => '400 Bad Request',
         401 => '401 Unauthorized',
         403 => '403 Forbidden',
         404 => '404 Not Found',
@@ -51,21 +52,36 @@ module Company
     end
 
     DONOR = {
-      "name"        => "John Doe",
-      "Location"           => "Chicago, Illinois"
+      "name" => "John Doe",
+      "location" => "Chicago, Illinois",
+      "created_at" => "2009-12-08T16:13:33Z"
     }
 
     FEATURED_PROJECT = {
-      "id"           => 26,
-      "title"      => "Udaan Girls Education Program in India",
-      "caption"         => "Provide marginalized girls with the opportunity to finish primary education",
-      "picture_url"     => "[URL]",
-      "picture_thumbnail_url"        => "[URL]",
-      "url"             => "http://citizeneffect.org/projects/udaan-3"
+      "id" => 26,
+      "title" => "Udaan Girls Education Program in India",
+      "caption" => "Provide marginalized girls with the opportunity to finish primary education",
+      "picture_url" => "[URL]",
+      "picture_thumbnail_url" => "[URL]",
+      "url" => "http://citizeneffect.org/projects/udaan-3"
     }
 
     MAILING_LIST_USER = {
       "email" => "jane@example.com"
+    }
+
+    MEDIA = {
+      "id" => 374,
+      "url" => "http://www.youtube.com/watch?v=nnv9wnUkF60",
+      "title" => "Dana, Jill, & Robin's Devki Village Well Repair Project",
+      "description" => "Dana, Jill & Robin raised $2,350 to repair the well in Devki village",
+      "type" => "video"
+    }
+
+    PARTNER = {
+      "id" => 34,
+      "name" => "Acme",
+      "logo_url" => "[URL]"
     }
 
     PROJECT = {
@@ -83,6 +99,18 @@ module Company
       "donor_count" => 20,
       "status" => "Awaiting Cp",
       "community_name" => "Uttar Pradesh and Orissa"
+    }
+
+    USER = {
+      "name" => "Jane Doe",
+      "location" => "Seattle, Washington",
+      "about_me" => "I am devoted to helping the under-privileged",
+      "email" => "jane@example.com",
+      "twitter_url" => "http://twitter.com/janedoe",
+      "linkedin_url" => "http://linkedin.com/janedoe",
+      "facebook_url" => "http://facebook.com/janedoe",
+      "myspace_url" => "http://myspace.com/janedoe",
+      "youtube_url" => "http://youtube.com/janedoe"
     }
 
   end

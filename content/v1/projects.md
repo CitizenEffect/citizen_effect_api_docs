@@ -11,7 +11,7 @@ title: Projects - API v1
     
 ### Response
     
-<%= headers 200, :pagination => true %>
+<%= headers 200 %>
 <%= json(:project) { |h| [h] } %>
 
 ## Get a single project
