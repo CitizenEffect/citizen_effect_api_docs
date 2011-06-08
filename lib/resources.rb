@@ -51,6 +51,10 @@ module Company
       end
     end
 
+    DONATION = {
+      "message" => "Donation Successful"
+    }
+
     DONOR = {
       "name" => "John Doe",
       "location" => "Chicago, Illinois",
