@@ -23,3 +23,14 @@ title: Projects - API v1
     
 <%= headers 200%>
 <%= json(:project) %>
+
+
+## Search projects
+
+    GET /projects/search.xml?search_term=education&status=needing_cp
+    GET /projects/search.json?search_term=education&status=needing_cp
+    
+### Response
+    
+<%= headers 200 %>
+<%= json(:project) { |h| [h] } %>
