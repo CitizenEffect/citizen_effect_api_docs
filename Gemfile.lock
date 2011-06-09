@@ -21,8 +21,8 @@ PLATFORMS
 DEPENDENCIES
   adsf
   kramdown (~> 0.13.2)
-  mime-types
+  mime-types (~> 1.16)
   nanoc (~> 3.1.6)
   nokogiri (~> 1.4.4)
-  pygmentize
+  pygmentize (~> 0.0.3)
   yajl-ruby (~> 0.8.2)
