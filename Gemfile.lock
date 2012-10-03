@@ -1,19 +1,23 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    adsf (1.0.1)
+    adsf (1.1.1)
       rack (>= 1.0.0)
-    cri (1.0.1)
-    kramdown (0.13.2)
-    mime-types (1.16)
-    nanoc (3.1.6)
-      nanoc3 (>= 3.1.6)
-    nanoc3 (3.1.6)
-      cri (>= 1.0.0)
-    nokogiri (1.4.4)
+    colored (1.2)
+    cri (2.3.0)
+      colored (>= 1.2)
+    kramdown (0.13.8)
+    mime-types (1.19)
+    nanoc (3.1.9)
+      nanoc3 (>= 3.1.9)
+    nanoc3 (3.2.4)
+      cri (~> 2.0)
+    nokogiri (1.4.7)
     pygmentize (0.0.3)
-    rack (1.2.2)
-    yajl-ruby (0.8.2)
+    rack (1.4.1)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
+    yajl-ruby (0.8.3)
 
 PLATFORMS
   ruby
@@ -25,4 +29,5 @@ DEPENDENCIES
   nanoc (~> 3.1.6)
   nokogiri (~> 1.4.4)
   pygmentize (~> 0.0.3)
+  rack-contrib
   yajl-ruby (~> 0.8.2)
