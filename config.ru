@@ -1,7 +1,5 @@
 require 'rubygems'
 require 'rack'
-require 'rack/contrib'
-require 'rack-rewrite'
 require 'mime/types'
 
 use Rack::ETag
