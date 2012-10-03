@@ -30,6 +30,6 @@ DEPENDENCIES
   nanoc (~> 3.1.6)
   nokogiri (~> 1.4.4)
   pygmentize (~> 0.0.3)
-  rack-contrib
-  rack-rewrite (~> 1.2.1)
+  rack-contrib (~> 1.1.0)
+  rack-rewrite
   yajl-ruby (~> 0.8.2)
